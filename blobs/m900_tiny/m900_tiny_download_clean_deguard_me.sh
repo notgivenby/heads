@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # These variables are all for the deguard tool.
-# They would need to be changed if using the tool for other devices like the T480s or with a different ME version...
+# They would need to be changed if using the tool for other devices with different ME version...
 ME_delta="optiplex_3050"
 ME_version="11.6.0.1126"
 ME_sku="2M"
