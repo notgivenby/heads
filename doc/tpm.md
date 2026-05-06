@@ -11,7 +11,7 @@ See also: [architecture.md](architecture.md), [boot-process.md](boot-process.md)
 
 `initrd/bin/tpmr.sh` is a shell script wrapper that presents a single interface
 over both TPM 1.2 (`tpm` / `trousers`) and TPM 2.0 (`tpm2-tools`). All Heads
-scripts call `tpmr` rather than invoking `tpm` or `tpm2` directly.
+scripts call `tpmr.sh` rather than invoking `tpm` or `tpm2` directly.
 
 ### PCR sizes
 

@@ -58,7 +58,7 @@ execution. Source lives in `initrd/`.
 | Boot signing | `initrd/bin/kexec-sign-config.sh` | GPG-sign /boot files, create checksums |
 | Boot verification | `initrd/bin/kexec-select-boot.sh` | Verify checksums, select and kexec the OS |
 | LUKS key sealing | `initrd/bin/kexec-seal-key.sh` | Seal disk encryption key to TPM |
-| TOTP/HOTP | `initrd/bin/seal-totp.sh`, `seal-hotpkey` | Seal attestation secrets to TPM |
+| TOTP/HOTP | `initrd/bin/seal-totp.sh`, `initrd/bin/seal-hotpkey.sh` | Seal attestation secrets to TPM |
 | OEM reset | `initrd/bin/oem-factory-reset.sh` | Full re-ownership: GPG, TPM, TOTP, checksums |
 | Config GUI | `initrd/bin/config-gui.sh` | Runtime configuration menus |
 | Functions lib | `initrd/etc/functions.sh` | Shared utilities: logging, INPUT, TPM helpers |
